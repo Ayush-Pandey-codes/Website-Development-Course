@@ -1,0 +1,257 @@
+
+/* GENERAL STYLING */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+p {
+    color: blue;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+
+/* WORKSHOP 4: HEADER AND NAVIGATION */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+
+/* MAIN AND SECTIONS */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+/* CONTENT BOX */
+.content-box {
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+
+/* TABLE STYLING */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+/* FORM STYLING */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* WORKSHOP 3 - TASK 1: TRANSITIONS */
+.transition-button {
+    background-color: lightblue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.transition-button:hover {
+    background-color: lightcoral;
+}
+
+
+/* WORKSHOP 3 - TASK 2: ANIMATIONS */
+.animation-box {
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+    position: relative;
+    animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100px;
+    }
+}
+
+
+/* WORKSHOP 3 - TASK 3: PSEUDO-CLASSES */
+.pseudo-list li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.pseudo-list li:nth-child(even) {
+    background-color: white;
+}
+
+
+/* WORKSHOP 3 - TASK 4: FILTERS */
+.filter-image {
+    width: 200px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.filter-image:hover {
+    filter: grayscale(0%);
+}
+
+
+/* WORKSHOP 3 - TASK 5: PSEUDO-ELEMENTS */
+.quote {
+    position: relative;
+    padding-left: 45px;
+    font-style: italic;
+    margin: 20px;
+}
+
+.quote::before {
+    content: "\201C";
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: -15px;
+    color: gray;
+}
+
+
+/* WORKSHOP 4 - TASK 2: GRID LAYOUT */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* WORKSHOP 4 - TASK 3: FLEXBOX LAYOUT */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+
+/* WORKSHOP 4 - TASK 4: MEDIA QUERIES */
+.responsive-box {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .responsive-box {
+        background-color: lightcoral;
+    }
+}
+
+@media (min-width: 601px) {
+    .responsive-box {
+        background-color: lightseagreen;
+    }
+}
+
+
+/* WORKSHOP 4 - FOOTER */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    color: white;
+}
