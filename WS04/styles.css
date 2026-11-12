@@ -1,0 +1,145 @@
+
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+p {
+    color: blue;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+
+
+.responsive-nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: lightblue;
+}
+
+.menu-toggle {
+    display: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+.responsive-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.media-query-box {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    .column {
+        flex: 100%;
+    }
+
+    .media-query-box {
+        background-color: lightcoral;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+@media (min-width: 601px) {
+
+    .media-query-box {
+        background-color: lightblue;
+    }
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    color: white;
+}
