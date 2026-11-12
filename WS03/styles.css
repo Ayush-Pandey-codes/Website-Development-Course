@@ -1,5 +1,5 @@
 
-/* GENERAL STYLING */
+
 body {
     background-color: lightgray;
     font-family: Arial, sans-serif;
@@ -16,7 +16,7 @@ h1 {
 }
 
 
-/* WORKSHOP 4: HEADER AND NAVIGATION */
+
 header {
     background-color: #333;
     color: white;
@@ -70,7 +70,7 @@ section {
 }
 
 
-/* TABLE STYLING */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -87,7 +87,6 @@ th {
 }
 
 
-/* FORM STYLING */
 form {
     display: flex;
     flex-direction: column;
@@ -119,7 +118,6 @@ input[type="submit"]:hover {
 }
 
 
-/* WORKSHOP 3 - TASK 1: TRANSITIONS */
 .transition-button {
     background-color: lightblue;
     padding: 10px 20px;
@@ -133,7 +131,6 @@ input[type="submit"]:hover {
 }
 
 
-/* WORKSHOP 3 - TASK 2: ANIMATIONS */
 .animation-box {
     width: 50px;
     height: 50px;
@@ -153,7 +150,6 @@ input[type="submit"]:hover {
 }
 
 
-/* WORKSHOP 3 - TASK 3: PSEUDO-CLASSES */
 .pseudo-list li:nth-child(odd) {
     background-color: lightgray;
 }
@@ -163,7 +159,7 @@ input[type="submit"]:hover {
 }
 
 
-/* WORKSHOP 3 - TASK 4: FILTERS */
+
 .filter-image {
     width: 200px;
     height: auto;
@@ -176,7 +172,7 @@ input[type="submit"]:hover {
 }
 
 
-/* WORKSHOP 3 - TASK 5: PSEUDO-ELEMENTS */
+
 .quote {
     position: relative;
     padding-left: 45px;
@@ -195,7 +191,7 @@ input[type="submit"]:hover {
 }
 
 
-/* WORKSHOP 4 - TASK 2: GRID LAYOUT */
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -209,7 +205,6 @@ input[type="submit"]:hover {
 }
 
 
-/* WORKSHOP 4 - TASK 3: FLEXBOX LAYOUT */
 .flex-container {
     display: flex;
     justify-content: space-around;
@@ -225,7 +220,7 @@ input[type="submit"]:hover {
 }
 
 
-/* WORKSHOP 4 - TASK 4: MEDIA QUERIES */
+
 .responsive-box {
     padding: 20px;
     text-align: center;
@@ -244,7 +239,7 @@ input[type="submit"]:hover {
 }
 
 
-/* WORKSHOP 4 - FOOTER */
+
 footer {
     background-color: #333;
     color: white;
